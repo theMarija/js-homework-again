@@ -79,3 +79,57 @@ if (username === "admin" && pass === "adminpass"){
     console.log("Invalid usename or password");
 }
 
+// If else: Needs to be solved with if, else and with ternary operator
+
+// 1. Check Age for Voting Eligibility
+// 2. Determining Pass or Fail Based on Score 0-100 ( below 65 is a fail )
+// 3. Check temperature for comfort level ( comfort is between 20 and 25 )
+// 4. Determining Shipping Cost Based on Order Amount (if the amout is above 100 shipping is free, if not it's $10)
+
+// 1.
+
+let vote = 16;
+
+if (vote >= 18){
+    console.log("User can vote");
+} else{
+    console.log("User can't vote");
+}
+
+console.log(vote >= 18 ? "User can vote" : "User can't vote");
+
+// 2. 
+
+let points = 55; 
+
+if (points >= 65) {
+    console.log("The student passed");
+} else{
+    console.log("Student failed");
+}
+
+console.log(points >= 65 ? "Student passed" : "Student failed");
+
+// 3. 
+
+let comfort = 22; 
+
+if (comfort > 20 && comfort < 25){
+    console.log ("The person is feeling comfortable");
+} else {
+    console.log("The person doesn't feel comfortable");
+}
+
+console.log(comfort>20 && comfort < 25 ? "The person is feeling comfortable" : "The person doesn't feel comfortable");
+
+// 4. 
+
+let shipping = 500;
+
+if (shipping > 100) {
+    console.log("Free shipping");
+} else {
+    console.log("Shipping is $10");
+}
+
+console.log(shipping > 100 ? "Free shipping" : "Shipping is $10");
