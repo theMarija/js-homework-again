@@ -28,3 +28,21 @@ if (ages >= 18 && ages < 60){
     console.log ("Senior ticket is $10");
 }
 
+// 2. Checking Day of the Week
+// - Monday - Start of the work week!
+// - Wednesday - Midweek!
+// - Friday - Almost weekend!
+// - Other day - Just another day.
+
+let dayWeek = prompt("Enter day of the week");
+
+if (dayWeek === "Monday") {
+    console.log ("Start of the work week");
+} else if (dayWeek === "Wednesday") {
+    console.log ("Midweek!");
+} else if (dayWeek === "Friday") {
+    console.log("Almost weekend");
+} else {
+    console.log("Just another day!");
+}
+
