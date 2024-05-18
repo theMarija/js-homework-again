@@ -14,3 +14,17 @@ if (age < 12) {
 } else{
     console.log("SSenior ticket");
 }
+
+// $10 (between 18 and 60)
+// - "Adult ticket: $10" (over 60years)
+
+let ages = 55; 
+
+if (ages >= 18 && ages < 60){
+    console.log ("Adult ticket is $8");
+} else if (ages < 18) {
+    console.log ("Ticket is $5");
+} else {
+    console.log ("Senior ticket is $10");
+}
+
